@@ -1,4 +1,4 @@
-# Fake News Detection
+# Imitation Box
 
 ## Overview  
 The topic of fake news detection on social media has recently attracted tremendous attention. The basic countermeasure of comparing websites against a list of labeled fake news sources is inflexible, and so a machine learning approach is desirable.  Our project aims to use Natural Language Processing to detect fake news directly, based on the text content of news articles. 
@@ -41,11 +41,7 @@ The file structure is the following
 
 ## Try It Out
 
-1. Clone the repo to your local machine-  
-`> git clone git://github.com/FakeNewsDetection/FakeBuster.git`  
-`> cd FakeBuster`
-
-2. Make sure you have all the dependencies installed-  
+1. Make sure you have all the dependencies installed-  
  * python 3.6+
  * numpy
  * tensorflow
@@ -61,7 +57,7 @@ The file structure is the following
        * `>>> import nltk`
        * `>>> nltk.download()`
     
-3. You're good to go now-  
+2. You're good to go now-  
 `> python svm.py`
 
 ## Comparing Accuracies of Models
